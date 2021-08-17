@@ -1,0 +1,30 @@
+:root {
+  --accent-color: #f4e425;
+  --secondary-accent-color: #25f459;
+  --default-text: #fff;
+  --content-text: #222;
+  --content-bg: rgb(221, 221, 221);
+  --text-font-stack: Roboto, "Open Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --heading-font-stack: 'Georama', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.hidden{
+  display:none;
+}
